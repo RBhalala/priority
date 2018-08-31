@@ -12,7 +12,7 @@ describe('Update Priority from array of data', () => {
       searchValue: 'ravi'
     }
     let output = priority(data, input)
-    console.log('daadadad', output)
+    // console.log('daadadad', JSON.stringify(output))
     expect(output.length).to.equal(data.length)
     done()
   })
