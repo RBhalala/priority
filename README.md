@@ -1,7 +1,9 @@
 # NPM Package To maintain the priority of any thing
-It is used to update the priority from given data array
-_The package is useful in the case where array of objects one key with unique values as priority and 
-out of that if you change in one of the priority, it should automatically update the rest according to the logic_
+It is used to update the priority from given data array.  
+
+The package is useful in the case where array of objects one key with unique values as priority and 
+out of that if you change in one of the priority, it should automatically update the rest according to the logic.
+
 
 _To Use This Package For Earlier Versions (<6.0) Of Your Node.js Then Download <1.0.0 Version_
 
