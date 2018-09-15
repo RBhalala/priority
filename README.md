@@ -47,9 +47,10 @@ let input = {
   searchKey: 'brand',
   searchValue: 'Porsche'
 }
+
 // Method call 
-let updatePriority = require('./lib/priority').updatePriority
-let output = updatePriority(data, input)
+const priority = require('priority-update').priority
+let output = priority(data, input)
 console.log('OUTPUT -- ', JSON.stringify(output))
 
 /* OUTPUT */
@@ -64,6 +65,7 @@ console.log('OUTPUT -- ', JSON.stringify(output))
 
 ```javascript
 Continue with the same example
+
 /* INPUT */
 let input = [{
       dataKey: 'priority',
@@ -81,9 +83,10 @@ let input = [{
       searchKey: 'brand',
       searchValue: 'BMW'
     }]
+
 // Method Call
-let updatePriorityInBulk = require('./lib/priority').updatePriorityInBulk
-let output = updatePriorityInBulk(data, input)
+const priorityInBulk = require('priority-update').priorityInBulk
+let output = priorityInBulk(data, input)
 console.log('OUTPUT -- ', JSON.stringify(output))
 
 /* OUTPUT */
@@ -97,5 +100,6 @@ console.log('OUTPUT -- ', JSON.stringify(output))
 
 ## Changelog
 
+- _1.1.0 priorityInBulk New Method added_ 
 - _1.0.1 Input validations added_
 - _1.0.0 Initial version_
