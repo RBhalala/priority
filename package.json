@@ -1,6 +1,6 @@
 {
     "name": "priority-update",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "It is module just to set the priority. Depending on that update other set of objects",
     "main": "yes",
     "scripts": {
