@@ -35,7 +35,7 @@ let data = [
   {'id': 2, 'brand': 'BMW', 'priority': 2}, 
   {'id': 3, 'brand': 'Audi', 'priority': 3}, 
   {'id': 4, 'brand': 'Porsche', 'priority': 4}, 
-  {'id': 5, 'brand': 'ravi5', 'Volkswagen': 5}
+  {'id': 5, 'brand': 'Volkswagen', 'priority': 5}
 ]
 Below is the input data where the dataKey is key which needs to set the new priority which is in dataValue
 and rest data objects need to update accordingly.
